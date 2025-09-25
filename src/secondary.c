@@ -1,14 +1,12 @@
 #include <stdio.h>
-#include "include/secondary.h"
 
 void setup() {
-    loop();
+    printf("Hello from setup function\n");
 }
 
 
 void loop() {
-    while(1)
-        printf("Hello from loop function\n");
+    printf("Hello from loop function\n");
 }
 
 

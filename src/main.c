@@ -2,7 +2,13 @@
 #include "include/secondary.h" //user defined header file
 
 int main() {
-    setup();
+    setup(); //function call
+    
+    while (1) {
+        loop();
+    }
+
+    
     return 0;
 }
 
